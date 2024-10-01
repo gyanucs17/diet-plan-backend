@@ -2,14 +2,14 @@
   git clone https://github.com/gyanucs17/dietproject-backend.git
 
 ## Setup run below commands
-  composer install /n
+  composer install 
   #
   composer dump-autoload
 
 ##
 Change .ENV file with your database credentials 
 also you can add a key as you secret key for jwt authentication
-
+## Use PHP 8+ version
 ## Now run server use below command
 php -S localhost:8080
 
