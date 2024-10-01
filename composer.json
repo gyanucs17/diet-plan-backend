@@ -1,0 +1,20 @@
+{
+    "name": "gyan/interview-task",
+    "description": "Interview Task",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+          "App\\": "App/"
+         }
+      },
+    "authors": [
+        {
+            "name": "Gyanendra kumar"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.7",
+        "vlucas/phpdotenv": "^5.6",
+        "firebase/php-jwt": "^6.10"
+    }
+}
