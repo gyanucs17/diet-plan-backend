@@ -32,7 +32,7 @@ $categoryController = new CategoryController();
 $routes = new Router();
 
 // Load routes from a separate file
-require __DIR__ . '/app/Routes/api.php';
+require __DIR__ . '/App/Routes/api.php';
 
 try {
     // Get the HTTP method and URI
