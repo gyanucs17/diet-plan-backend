@@ -46,6 +46,10 @@ SECRET_KEY=secret_key_for_this_project
 
 ### 5. Import database tables and using .sql file located at root named test_db.sql
 
+### 6. Start your php server
+Run the following commands to start server
+php -S localhost:8080 //you can use any port 
+
 ## CSV Uploads
 
 1. Food Items - use CSV with header columns Resident name, IDSSI Level & Category, please look at sampleFood.csv sample file for your reference
