@@ -17,21 +17,21 @@ Ensure you have the following installed on your machine:
 
 Open your terminal and run the following command to clone the repository:
 
-bash  
+```bash  
 git clone https://github.com/gyanucs17/diet-plan-backend.git  
-
+```
 
 ### 2. Navigate to project directory
-bash
+```bash
 cd diet-plan-backend  
-
+```
 
 ### 3. Install Dependencies
 Run the following commands to install the necessary dependencies:
-bash  
+```bash  
 composer install  
 composer dump-autoload  
-
+```
 
 ### 4. Configure environment variables
 Update the .env  with your database credentials and other necessary configurations.
@@ -47,10 +47,10 @@ SECRET_KEY=secret_key_for_this_project
 ### 5. Import database tables and using .sql file located at root named test_db.sql
 
 ### 6. Start your php server
-Run the following commands to start server  
-php -S localhost:8080 //you can use any port    
+Run the following commands to start server 
+php -S localhost:8080
 
-## CSV Uploads
+### CSV Uploads
 
 1. Food Items - use CSV with header columns Resident name, IDSSI Level & Category, please look at sampleFood.csv sample file for your reference  
 2. Residents - use CSV with header columns Resident name & IDSSI Level, please look at sampleResident.csv sample file for your reference  
